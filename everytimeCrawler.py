@@ -56,7 +56,7 @@ new_ScrapList = []
 index = 0
 
 for i in range(len(scrapList1)):
-    if int(scrapList1[i])>5:
+    if int(scrapList1[i])>10:
         new_ScrapList.append(index)
     index = index + 1
 
